@@ -4,9 +4,8 @@ section-type: post
 title: How to clear Associate Android Developer exam?
 category: Android
 tags: [ 'android','certification','associate android developer','android certification' ]
+image: https://kevalpatel2106.github.io/img/blog/aad-certificate/image.jpeg 
 ---
-
-**![AAD](https://kevalpatel2106.github.io/img/blog/aad-certificate/image.jpeg "AAD")**
 
 If you are an experienced android developer or you are looking for a job opportunity in android and you are looking for the way to qualify and certify your android application development skills, Associate Android Developer Certification is the one you should be looking for. In this article, you will know, how you can apply for the certification and how you can crack the exam.
 
@@ -16,8 +15,9 @@ If you are an experienced android developer or you are looking for a job opportu
 
 Google introduced the Associate Android Developer Certification [<u>at Google I/O 2016</u>](https://www.youtube.com/watch?v=Yu2oGere_Mc). The Associate Android Developer exam demonstrates the type of skill that a newer Android Developer should have as they begin their career. By passing this exam and earning the Associate Android Developer Certification, you will show that you are competent and skilled in tasks that a developer typically performs. Here is the introduction video, which will give you more insight into the program. 
 
-**[![AAD](https://kevalpatel2106.github.io/img/blog/aad-certificate/image5.png "AAD")](https://www.youtube.com/watch?v=JoJbQHCvyw0)**
-
+<section class="youtube">
+	<iframe src="https://www.youtube.com/embed/JoJbQHCvyw0" style="width:600px;height:400px;" align="middle" frameborder="0" allowfullscreen></iframe>
+</section>
 * * *
 
 ## **How to apply for the certification?**
