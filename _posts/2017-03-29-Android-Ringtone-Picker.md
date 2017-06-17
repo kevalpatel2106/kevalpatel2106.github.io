@@ -1,5 +1,5 @@
 ---
-layout: open-source
+layout: post
 section-type: post
 title: Android Ringtone Picker
 category: Open Source
