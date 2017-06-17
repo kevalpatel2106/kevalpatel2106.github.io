@@ -66,9 +66,11 @@ Once you are prepared with all the above areas, apply for the exam. Let’s see 
 
 ## **What is the exam procedure?**
 
-AAD exam is made up of two rounds.
-1. Practical exam, where you will write real code. 
-2. An exit interview.
+AAD exam is made up of two rounds: 
+
+1\. Practical exam, where you will write real code. 
+
+2\. An exit interview.
 
 ### **Practical exam:**
 
@@ -88,7 +90,7 @@ Check the implemented functionality with edge cases (e.g. rotation changes, netw
 
 #### 2\. Add new functionality to your existing code.
 
-These type of tasks ask you to build something upon the existing functionality. You will also find <pre><code data-trim class="java">//TODO</code></pre> comments throughout the code provided while starting the exams. e.g. These tasks may ask you to create a table in existing database, display some list items in the existing activity using _RecyclerView_ etc.
+These type of tasks ask you to build something upon the existing functionality. You will also find <code data-trim class="java">//TODO</code> comments throughout the code provided while starting the exams. e.g. These tasks may ask you to create a table in existing database, display some list items in the existing activity using _RecyclerView_ etc.
 
 To complete these type of tasks you must have sound knowledge of Android components. Also, you need to see that you don’t make any changes in the existing code or change the name of the classes/methods.
 
@@ -108,7 +110,13 @@ After completing all the tasks, upload your code in .zip format and submit the c
 
 **![Exit interview](https://kevalpatel2106.github.io/img/blog/aad-certificate/image3.png "Exit interview")** 
 
-Once you pass the practice exam, certification team will ask you to choose your convenient time for the exit interview. This will be a chance for you to explain your work and your knowledge. The exit interview will be taken by one of the members from the certification team. It will be through a video call. You have to provide proof of your identity using any other government authorized identity card at the starting of the interview. After that, the interviewer will ask you to explain your work and the tasks you performed in the practical exam. The interviewer will also ask you some questions related to fundamentals of the Android to validate your skill level. The exit interview will take about 15 to 30 minutes. Once you complete the interview, you will receive the final result within a couple of weeks.
+Once you pass the practice exam, certification team will ask you to choose your convenient time for the exit interview. 
+
+This will be a chance for you to explain your work and your knowledge. The exit interview will be taken by one of the members from the certification team. It will be through a video call. You have to provide proof of your identity using any other government authorized identity card at the starting of the interview. 
+
+After that, the interviewer will ask you to explain your work and the tasks you performed in the practical exam. The interviewer will also ask you some questions related to fundamentals of the Android to validate your skill level. 
+
+The exit interview will take about 15 to 30 minutes. Once you complete the interview, you will receive the final result within a couple of weeks.
 
 * * *
 
