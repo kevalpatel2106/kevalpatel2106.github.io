@@ -31,8 +31,8 @@ force-https: True
 lang: "en"
 author: "Keval Patel"
 title: "{ Keval Patel }"
-description: "Blog and website of Keval Patel, blogging mainly for tech. Opinions expressed are mine."
-keywords: "patel, keval, personal, jekyll, theme"
+description: "Blog and website of Keval Patel, blogging mainly for programming. Opinions expressed are mine."
+keywords: "patel, keval, personal, jekyll"
 favicon: "/img/favicon.ico"
 
 ################
@@ -146,7 +146,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "kevalpatel2106@gmail.com"
 
 ################
 # Author Blurb #
@@ -165,13 +165,11 @@ author_blurb_image: "/img/author.png"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
+    url: "https://facebook.com/kevalpatel2106"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/kevalpatel2106"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/kevalpatel2106"
   - title: "rss"
     url: "/feed.xml"
 
@@ -185,7 +183,7 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
+keybase-username: kevalpatel2106
 keybase-in-social: True
 keybase-in-footer: True
 
