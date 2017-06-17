@@ -30,8 +30,8 @@ AAD exam is to check your skills in application development. Before applying for
 
 ### **1\. Testing and Debugging:**
 
-- You should be able to analyze application crashes and find common bugs such as layout errors and memory leaks.
-- Also, you must have the knowledge of writing the espresso test cases and unit tests.
+-You should be able to analyze application crashes and find common bugs such as layout errors and memory leaks.
+-Also, you must have the knowledge of writing the espresso test cases and unit tests.
 
 ### **2\. Application User Interface (UI) and User Experience (UX):**
 
