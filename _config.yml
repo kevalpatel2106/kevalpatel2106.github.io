@@ -156,7 +156,7 @@ email: "kevalpatel2106@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Keval Patel is an electronics enginner who is currently working as an Android Developer. He lives in India. He loves to explore new things in coputer sicence. He belives to learn something new everyday. In his free times, he loves to write blogs that explains complex problems in simple words."
+author_blurb: "Keval Patel is an electronics engineer who is currently working as an Android Developer. He lives in India. He loves to explore new things in computer science. He belives to learn something new every day. In his free times, he loves to write blogs that explain complex problems in simple words."
 author_blurb_image: "/img/author.png"
 
 ##################
