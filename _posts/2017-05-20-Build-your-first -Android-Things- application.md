@@ -1,7 +1,7 @@
 ---
 layout: presentation
 section-type: post
-title: Getting started with Android Things.
+title: Build your first Android Things application.
 category: Presentation
 
 event: Ahmedabad Mobile Technology Meetup
