@@ -9,13 +9,13 @@ github : https://github.com/kevalpatel2106/android-ringtone-picker
 
 Simple Ringtone Picker dialog which allows you to pick different sounds from ringtone, alarm tone, notification tone and music from external storage.
 
-##Gradle dependency:
+##**Gradle dependency:**
 
 Add below dependency into your build.gradle file.
 
 <code>compile 'com.kevalpatel2106:ringtonepicker:1.0'</code>
 
-##How to use?
+##**How to use?**
 
 Use <code>RingtonePicker.Builder</code> to build the ringtone picker dialog.
 Pass all the parameters and call <code>RingtonePicker.Builder#show()</code> to display ringtone picker dialog.
@@ -57,6 +57,6 @@ Pass all the parameters and call <code>RingtonePicker.Builder#show()</code> to d
 	ringtonePickerBuilder.show();
 </code>
 
-##Sample:
+##**Sample:**
 
 <img align="middle" src="https://kevalpatel2106.github.io/img/blog/ringtone-picker/image2.gif" alt="demo.gif" width="240" height="427" />

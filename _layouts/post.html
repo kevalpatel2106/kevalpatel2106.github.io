@@ -41,14 +41,19 @@
 			<br/>
             {{ page.content | markdownify }}
           </section>
+		  
+		  {% if page.github %}
+			<br/>
+		  	<h2>Srource Code: </h2>
+			<br/>
+		  	<a href="{{ page.github }}"><img src="https://kevalpatel2106.github.io/img/bloggithub.png" align="middle" style="width:1024px;height:320px;"></a>
+          {% endif %}
 
           {% include share.html %}
 
           {% if jekyll.environment == "production" %}
             {% include comments.html %}
           {% endif %}
-
-
           <hr />
 
           {% if site.author_blurb %}
