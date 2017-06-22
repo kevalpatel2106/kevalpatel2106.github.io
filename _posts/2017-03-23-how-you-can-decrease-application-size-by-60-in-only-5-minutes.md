@@ -47,9 +47,11 @@ As you can see from the screenshot, there are main 3 folders that are consuming 
 
   * **classes.dex** — This is the dex file which contains all the bytecode files of your java code that will run on your DVM or ART.
   * **res** — This folder includes all the files under your res folder. Most of the time this will contain all the images, icons and raw files, menu files, and layouts.
+
 ![1*8ITi0D6JrpibvAC9iTG2rA.png](https://kevalpatel2106.github.io/img/blog/decrease-apk-size/image3.png)
 
   * **resources.arsc** — This file holds all the value resources. This file contains all the data you have under your different value folders. This resource contains strings, dimensions, styles, integers, ids etc.
+
 ![1*B1MMigEQSVfKIJRmujeIag](https://kevalpatel2106.github.io/img/blog/decrease-apk-size/image4.png)
 
 * * *
@@ -106,7 +108,7 @@ Press ok and it will convert all the png images to webp format one-by-one. If th
 
 Let’s see the final result:
 
-![1*8ITi0D6JrpibvAC9iTG2rA.png](https://kevalpatel2106.github.io/img/blog/decrease-apk-size/image8.ong)
+![1*8ITi0D6JrpibvAC9iTG2rA.png](https://kevalpatel2106.github.io/img/blog/decrease-apk-size/image8.png)
 
 Volla!!! res folder size decrease from 710KB to 597KB.
 
