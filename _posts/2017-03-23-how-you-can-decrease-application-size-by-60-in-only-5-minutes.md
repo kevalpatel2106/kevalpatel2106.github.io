@@ -121,7 +121,7 @@ Volla!!! res folder size decrease from 710KB to 597KB.
 - Enable **shrinkResources**.
 - Strip down all the unused locale resources by adding required resources name in **“resConfigs”**.
 - **Convert all the images** to the webp or vector drawables.
-
+	
 ## Conclusion:
 
 By applying above simple tricks the application size decreases from 3.19 MB to 1.89 MB.
