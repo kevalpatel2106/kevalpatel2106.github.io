@@ -69,4 +69,4 @@ That’s it. Now build and run the project to see the results.
 
 Here is the sample of how our final application should look like. ![sample.gif](https://kevalpatel2106.github.io/img/blog/chat-heads/image3.gif) 
 
-Don’t worry if you have any problems while building the project. Full source code is also available on [**GitHub**](https://github.com/kevalpatel2106/android-samples/tree/master/Facebook%20Chat%20Heads). Go ahead, download and run it. Still, if you have any queries let me know in comments below or _hit me on _[_Twitter_](https://twitter.com/Kevalonly77)_.
+Don’t worry if you have any problems while building the project. Full source code is also available on [GitHub](https://github.com/kevalpatel2106/android-samples/tree/master/Facebook%20Chat%20Heads). Go ahead, download and run it. Still, if you have any queries let me know in comments below or hit me on [Twitter](https://twitter.com/Kevalonly77).
