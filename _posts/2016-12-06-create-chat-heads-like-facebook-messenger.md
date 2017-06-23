@@ -27,7 +27,7 @@ So, let’s get started.
 ### **Implementation:**
 
 **Step-1:** 
-Add _[android.permission.SYSTEM_ALERT_WINDOW_](https://developer.android.com/reference/android/Manifest.permission.html#SYSTEM_ALERT_WINDOW) permission to the _AndroidManifest.xml_ file. This permission allows an app to create windows , shown on top of all other apps.
+Add _[android.permission.SYSTEM_ALERT_WINDOW](https://developer.android.com/reference/android/Manifest.permission.html#SYSTEM_ALERT_WINDOW)_ permission to the _AndroidManifest.xml_ file. This permission allows an app to create windows , shown on top of all other apps.
 
 <script src="https://gist.github.com/kevalpatel2106/3d525fa2ff9c91892668e2e7f8bcaa0d.js"></script>
 
@@ -42,7 +42,7 @@ Create the layout of the chat head you want to display.
 
 	<script src="https://gist.github.com/kevalpatel2106/42340f32188ecbf677cb14ef7194f1a6.js"></script>
 
-  * To drag the chat head along with the user’s touch, we have to override _[OnTouchListener()_](https://developer.android.com/reference/android/view/View.OnTouchListener.html). Whenever the user touches the chat head, we will record the initial x and y coordinates, and when the user moves the finger, the application will calculate the new X and Y coordinate and move the chat head.
+  * To drag the chat head along with the user’s touch, we have to override _[OnTouchListener()](https://developer.android.com/reference/android/view/View.OnTouchListener.html)_. Whenever the user touches the chat head, we will record the initial x and y coordinates, and when the user moves the finger, the application will calculate the new X and Y coordinate and move the chat head.
   
   * Also, implement click listener to close the chat head by stopping the service when the user clicks on the close icon at the top-right of the chat head.
 
@@ -55,7 +55,7 @@ Create the layout of the chat head you want to display.
 #### **Step-4: Handle Overdraw permission:**
 
   * Now one final step is remaining. To add display chat head, you need to start the _ChatService.java_.
-  * Before that, we need to check if the application has _android.permission.SYSTEM_ALERT_WINDOW_ permission or not? For android version <= API22, this permission is granted by default. But for the android versions running API>22 ,we need to check for the permission run-time. If the permission is not available, we will open permission management screen to allow the user to grant permission using _[Settings.ACTION_MANAGE_OVERLAY_PERMISSION_](https://developer.android.com/reference/android/provider/Settings.html#ACTION_MANAGE_OVERLAY_PERMISSION) intent action. This will open below screen facilitate user to grant _android.permission.SYSTEM_ALERT_WINDOW_ permission.
+  * Before that, we need to check if the application has _android.permission.SYSTEM_ALERT_WINDOW_ permission or not? For android version <= API22, this permission is granted by default. But for the android versions running API>22 ,we need to check for the permission run-time. If the permission is not available, we will open permission management screen to allow the user to grant permission using _[Settings.ACTION_MANAGE_OVERLAY_PERMISSION](https://developer.android.com/reference/android/provider/Settings.html#ACTION_MANAGE_OVERLAY_PERMISSION)_ intent action. This will open below screen facilitate user to grant _android.permission.SYSTEM_ALERT_WINDOW_ permission.
 
 	![permission](https://kevalpatel2106.github.io/img/blog/chat-heads/image2.png)
 
@@ -69,4 +69,4 @@ That’s it. Now build and run the project to see the results.
 
 Here is the sample of how our final application should look like. ![sample.gif](https://kevalpatel2106.github.io/img/blog/chat-heads/image3.gif) 
 
-Don’t worry if you have any problems while building the project. Full source code is also available on **[GitHub**](https://github.com/kevalpatel2106/android-samples/tree/master/Facebook%20Chat%20Heads). Go ahead, download and run it. Still, if you have any queries let me know in comments below or _hit me on __[Twitter_](https://twitter.com/Kevalonly77)_.
+Don’t worry if you have any problems while building the project. Full source code is also available on [**GitHub**](https://github.com/kevalpatel2106/android-samples/tree/master/Facebook%20Chat%20Heads). Go ahead, download and run it. Still, if you have any queries let me know in comments below or _hit me on _[_Twitter_](https://twitter.com/Kevalonly77)_.
