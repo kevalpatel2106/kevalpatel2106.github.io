@@ -19,12 +19,12 @@ If you are using Samsung devices you might know there is one feature called “S
 
 ### Here is the solution:
 
-“**[Prevent-Screen-Off**](https://github.com/kevalpatel2106/Prevent-Screen-Off)” library handles screen on/off timing smartly. It prevents device display from turning off when the user is looking at the screen and he/she might be reading some textual content provided by your application. As soon as the user stop looking at the screen it will allow phone screen to turn off.
+[**Prevent-Screen-Off**](https://github.com/kevalpatel2106/Prevent-Screen-Off) library handles screen on/off timing smartly. It prevents device display from turning off when the user is looking at the screen and he/she might be reading some textual content provided by your application. As soon as the user stop looking at the screen it will allow phone screen to turn off.
 
 ### How this works?
 
   * This library uses the front camera to sense when you are looking at your device
-  * This uses [Google Play Services Mobile Vision API](https://developers.google.com/vision/) to track users eye using the device front camera. This uses the same algorithm to detect user’s eyes used in “**[UserAwareVideoView**](https://github.com/kevalpatel2106/UserAwareVideoView)”. _(I wrote a whole article regarding how UserAwareVideoView works. You can find it from __[here_](https://medium.com/@kevalpatel2106/user-aware-video-view-4172c9f722e2#.7loq4czib)_.)_
+  * This uses [Google Play Services Mobile Vision API](https://developers.google.com/vision/) to track users eye using the device front camera. This uses the same algorithm to detect user’s eyes used in “**[UserAwareVideoView**](https://github.com/kevalpatel2106/UserAwareVideoView)”. _(I wrote a whole article regarding how UserAwareVideoView works. You can find it from __[here_](https://kevalpatel2106.github.io/open%20source/2016/12/04/User-Aware-Video-View.html)_.)_
   * It keeps the screen from turning off regardless of the screen timeout setting if the user is looking at the screen by detecting user’s eyes.
 
 * * *
@@ -36,7 +36,8 @@ Let’s dive into some technical stuff and see how you can integrate this librar
 **Add Gradle dependency:**
 
   * To start with the integration, first provide the Gradle dependency of the library by entering below lines in your module level _build.gradle_.
-[gist]547fa53bd14719574404f14e4d6b0892[/gist] 
+
+	<script src="https://gist.github.com/kevalpatel2106/547fa53bd14719574404f14e4d6b0892.js"></script>
 
 > This library adds android.permission.CAMERA and android.permission.WAKE_LOCK permission in your applications AndroidManifest.xml file.
 
@@ -47,9 +48,13 @@ Let’s dive into some technical stuff and see how you can integrate this librar
   * When library detects that the user is not looking at the screen, this will turn off the screen after some time.
   * It will stop eye tracking when your activity goes into the background to preserve the battery.
   * Implement `ScreenListener` to receive the callbacks from the library.
-[gist]5868baeec08b84bf493183e1b6599b96[/gist] 
+
+	<script src="https://gist.github.com/kevalpatel2106/5868baeec08b84bf493183e1b6599b96.js"></script>
+
   * Handle the callbacks and errors received from `ScreenListener`.
-[gist]2dcff2e3d11890971114e23ebaf0e5be[/gist] 
+	
+	<script src="https://gist.github.com/kevalpatel2106/2dcff2e3d11890971114e23ebaf0e5be.js"></script>
+
   * That’s it. You successfully integrated the library. By the way, if you want to try our sample application before integration, you can find it from this [link](https://github.com/kevalpatel2106/Prevent-Screen-Off#demo).
 
 ### **This library won’t work if,**

@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: UserAwareVideoView
 category: Open Source
-image : https://kevalpatel2106.github.io/img/blog/user-aware-video-view/image.png
+image : https://kevalpatel2106.github.io/img/blog/user-aware-video-view/image1.jpeg
 github : https://github.com/kevalpatel2106/UserAwareVideoView
 ---
 
