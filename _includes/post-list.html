@@ -9,11 +9,17 @@
     </a>
   .</small>
   <br class="visible-xs-block">
-  <a href="{{site.baseurl}}{{post.url}}">
-    <strong>{{ post.title }}</strong>
-  </a>
-  <br class="visible-xs-block">
-  <small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
+    {% if post.redirect %}
+		<a href="{{post.redirect}}" target="_blank">
+			<strong>{{ post.title }}</strong>
+		</a>
+	{% else %}
+		<a href="{{site.baseurl}}{{post.url}}">
+			<strong>{{ post.title }}</strong>
+		</a>
+	    <br class="visible-xs-block">
+	    <small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
+    {% endif %}  
 </h4>
 
 <!-- Post List End -->
