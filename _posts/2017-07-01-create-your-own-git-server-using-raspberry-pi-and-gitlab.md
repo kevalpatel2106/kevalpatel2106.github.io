@@ -80,7 +80,7 @@ That's it. Congratulations!!! You sucessfully installed GitLab server on your Ra
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Finally!!👾 Running <a href="https://twitter.com/gitlab">@gitlab</a> CE locally on my <a href="https://twitter.com/hashtag/RaspberryPi3?src=hash">#RaspberryPi3</a>. <a href="https://twitter.com/hashtag/Git?src=hash">#Git</a> <a href="https://twitter.com/hashtag/RaspberryPi?src=hash">#RaspberryPi</a> <a href="https://twitter.com/hashtag/LearnEveryDay?src=hash">#LearnEveryDay</a> <a href="https://t.co/SB4SO39Xe8">pic.twitter.com/SB4SO39Xe8</a></p>&mdash; Keval Patel (@kevalpatel2106) <a href="https://twitter.com/kevalpatel2106/status/881063654359093248">July 1, 2017</a></blockquote> 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
+------
 ### Conclusion:
 
 So, now you learned how you can host your own Git server at your home. This will cost you less than $50. But,it will provide you complete controll over your codebase. 
