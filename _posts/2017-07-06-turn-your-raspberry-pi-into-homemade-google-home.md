@@ -10,11 +10,8 @@ image : https://kevalpatel2106.github.io/img/blog/homemade-google-home/home_bann
 In this article, you are going to learn to turn your Raspberry Pi into homemade Google Home device which is,
 
 - Powered by Google Assistant.
-
 - Voice activated. No need to press any button, just say "Ok Google" or "Hey Google" and ask your question.
-
 - There will be a LED indicator which will stay on whenever the conversation between the user and the Google Assistant it in progress. 
-
 - It can initialize on boot so no need to login and run the script from terminal after reboots. 
 
 So, let's get started.
@@ -24,17 +21,11 @@ So, let's get started.
 ### What things will you need?
 
 - Raspberry Pi model 2 or 3.
-
 - MicroSD card with Raspbian on it (Minimum 8GB recommended). 
-
 - Power supply to feed your raspberry pi. (Any USB mobile charger with minimum 5V, 2A output will work.)
-
 - USB mic (As Raspberry Pi doesn't have an inbuilt mic. I used MI-305).  
-
 - A speaker.
-
 - A LED.
-
 - A couple of wires to connect LED.
 
 Once you have all these things, login to Raspbian desktop and go to the following steps one by one.
@@ -127,9 +118,9 @@ It should download the Google Assistant Library and the demo.
 
 ![homemade-google-home](https://kevalpatel2106.github.io/img/blog/homemade-google-home/image1.png)
 
-- Head over to API manager(https://console.cloud.google.com/apis/api/embeddedassistant.googleapis.com/overview) and enable the Google Assistant API.
+- Head over to [API manager](https://console.cloud.google.com/apis/api/embeddedassistant.googleapis.com/overview) and enable the Google Assistant API.
 
-- Make sure that you enable Web & App Activity, Device Information and Voice & Audio Activity in activity controls (https://myaccount.google.com/activitycontrols) for the account.
+- Make sure that you enable Web & App Activity, Device Information and Voice & Audio Activity in [Activity Controls](https://myaccount.google.com/activitycontrols) for the account.
 
 - Go to "[Credentials](https://console.cloud.google.com/apis/credentials)" and set up OAuth Content Screen.
 
@@ -160,8 +151,10 @@ It should download the Google Assistant Library and the demo.
 - It should display as shown below. Copy the URL and paste it into a browser (this can be done on your development machine, or any other machine). After you approve, a code will appear in your browser, such as "4/XXXX". Copy this and paste this code into the terminal.
 
 <prev>
+<code>
 Please go to this URL: https://...
 Enter the authorization code:
+</code>
 </prev>
 
 If instead, it displays: <code>InvalidGrantError</code> then an invalid code was entered. Try again.
