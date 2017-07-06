@@ -35,9 +35,7 @@ Once you have all these things, login to Raspbian desktop and go to the followin
 ### Step -1: Setting up USB mic.
 
 - Raspberry Pi doesn't have inbuilt microphones. If you want to record audio, you need to attach a USB microphone. 
-
 - Plug your USB mic into any of the USB slots of your Raspberry Pi.
-
 - Go to the terminal and type following command.
 
 <script src="https://gist.github.com/kevalpatel2106/abbfce002c4436ac0309ea8908aae1c8.js"></script>
@@ -67,7 +65,6 @@ Paste above confugrations to this file.
 ### Step -2:  Setting up your speaker output.
 
 - Connect your speaker to 3.5mm headphone jack of the Raspberry Pi.
-
 - Run below command to open raspberry pi configuration screen.
 
 <script src="https://gist.github.com/kevalpatel2106/97f90407eab4ff161135f8734a6f906a.js"></script>
@@ -119,9 +116,7 @@ It should download the Google Assistant Library and the demo.
 ![homemade-google-home](https://kevalpatel2106.github.io/img/blog/homemade-google-home/image1.png)
 
 - Head over to [API manager](https://console.cloud.google.com/apis/api/embeddedassistant.googleapis.com/overview) and enable the Google Assistant API.
-
 - Make sure that you enable Web & App Activity, Device Information and Voice & Audio Activity in [Activity Controls](https://myaccount.google.com/activitycontrols) for the account.
-
 - Go to "[Credentials](https://console.cloud.google.com/apis/credentials)" and set up OAuth Content Screen.
 
 ![homemade-google-home](https://kevalpatel2106.github.io/img/blog/homemade-google-home/image2.png)
@@ -162,7 +157,6 @@ If instead, it displays: <code>InvalidGrantError</code> then an invalid code was
 ### Step -7: Setting up the LED indicator.
 
 - Connect your LED between GPIO pin 25 and ground.
-
 - The idea here is simple. We are going to set the GPIO pin 25 as the output pin. Google Assistant SDK provides a callback EventType.ON_CONVERSATION_TURN_STARTED when the conversion with the Google Assistant begins. At that point, we are going to set the GPIO 25 to glow the LED. Whenever the conversation terminates EventType.ON_CONVERSATION_TURN_FINISHED callback will be received. At that point, we will reset the GPIO 25 to turn off the LED.
 
 ![homemade-google-home](https://kevalpatel2106.github.io/img/blog/homemade-google-home/circuit-diagram.png)
@@ -170,7 +164,6 @@ If instead, it displays: <code>InvalidGrantError</code> then an invalid code was
 ### Step -8: Initialise on boot complete:
 
 - Whenever your Raspberry Pi completes boot process, we will run a python script that will authenticate and initialize the Google Assistant on boot.
-
 - Go to the user directory. Create new python file <code>main.py</code>.
 
 <script src="https://gist.github.com/kevalpatel2106/ee36364d6de1e6c360fcdc7192e4882e.js"></script>
@@ -198,7 +191,6 @@ You can run google-assistant-init.sh to initiate the Google Assistant any time. 
 #### 1. Autostart with Pixel Desktop on Boot: 
 
 - This will start the Google Assistant as soon as Pixel desktop boots up. Make sure you have "Desktop" boot selected in Raspberry Pi configurations.
-
 - Type below command
 
 <script src="https://gist.github.com/kevalpatel2106/81ce5aac8b15188eaad170eb72c46c9d.js"></script>
@@ -212,7 +204,6 @@ You can run google-assistant-init.sh to initiate the Google Assistant any time. 
 #### 2. Autostart with CLI on Boot:
 
 - This will start the Google Assistant if you have set CLI boot. Make sure you have "CLI" boot selected in Raspberry Pi configurations.
-
 - Type below command
 
 <script src="https://gist.github.com/kevalpatel2106/a3fb98f5dbf0db844822859a73a897cb.js"></script>
