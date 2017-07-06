@@ -111,7 +111,7 @@ It should download the Google Assistant Library and the demo.
 
 ### Step -5: Enabling the Google Assistant cloud project.
 
-- Open the Google Cloud Console (https://console.cloud.google.com/) and create a new project. (You can name it whatever you want.) The account with which you sign in will be used to send queries to Google Assistant and get your personalized response.
+- Open the [Google Cloud Console](https://console.cloud.google.com/) and create a new project. (You can name it whatever you want.) The account with which you sign in will be used to send queries to Google Assistant and get your personalized response.
 
 ![homemade-google-home](https://kevalpatel2106.github.io/img/blog/homemade-google-home/image1.png)
 
