@@ -8,17 +8,18 @@
 
   <body>
 	<section id="post" class="container content-section text-center">
-  	{% if page.redirect %}
-		<p>
-			<h2>Redirecting...</h2>
-			
-			<a href="{{page.redirect}}">Redirect now</a>
-		</p>
-  	{% else %}
     	
 	{% include navigation.html %}
 
       <div class="row">
+	    	{% if page.redirect %}
+	  		<p>
+	  			<h2>Redirecting...</h2>
+			
+	  			<a href="{{page.redirect}}">Redirect now</a>
+	  		</p>
+	    	{% else %}
+			
         <div class="col-md-10 col-md-offset-1">
 
           {% include swipe-instructions.html %}
@@ -76,8 +77,9 @@
           </div>
           {% endif%}
         </div>
-      </div>
+      
 	  {% endif %}
+	  </div>
     </section>
 
     {% include footer.html %}
