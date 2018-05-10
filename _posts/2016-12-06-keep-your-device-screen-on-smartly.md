@@ -1,6 +1,5 @@
 ---
 layout: post
-section-type: post
 title: Keep your device screen on smartly!!!
 category: Open Source
 image : https://kevalpatel2106.github.io/img/blog/prevent-screen-off/image.gif
@@ -9,7 +8,7 @@ github : https://github.com/kevalpatel2106/Prevent-Screen-Off
 
 # Keep your device screen on smartly!!!
 
-Ideally, when you user is looking at the screen, your application should prevent the device screen from turning off. 
+Ideally, when you user is looking at the screen, your application should prevent the device screen from turning off.
 
 This is the huge deal for the blogging, messaging applications. These applications display textual content to their user. Reading those textual content takes more time to the user. While reading that content (let say an article) if the user does not interact with the display and the screen turns off because of the screen timeout that is frustrating to the user. It will destroy the concentration of the user and breaks the link.
 
@@ -52,7 +51,7 @@ Let’s dive into some technical stuff and see how you can integrate this librar
 	<script src="https://gist.github.com/kevalpatel2106/5868baeec08b84bf493183e1b6599b96.js"></script>
 
   * Handle the callbacks and errors received from `ScreenListener`.
-	
+
 	<script src="https://gist.github.com/kevalpatel2106/2dcff2e3d11890971114e23ebaf0e5be.js"></script>
 
   * That’s it. You successfully integrated the library. By the way, if you want to try our sample application before integration, you can find it from this [link](https://github.com/kevalpatel2106/Prevent-Screen-Off#demo).

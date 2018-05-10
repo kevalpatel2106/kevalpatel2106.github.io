@@ -1,81 +1,40 @@
+---
+layout: page
+---
+{% if page.image != null %}
+<img src="{{ page.image }}" align="middle" style="width:600px;height:400px;">
+{% endif %}
 
-<!-- Post Layout Start -->
+{{ content }}
 
-<!DOCTYPE html>
-<html lang="{{ site.lang }}">
+{% if page.video %}
+<section class="video">
+  <p>Video available at <a href="{{ page.video }}">{{ page.video }}</a>.</p>
+</section>
+{% endif %}
+{% if page.youtube %}
+<section class="youtube">
+  <iframe src="https://www.youtube.com/embed/{{ page.youtube }}" style="width:600px;height:400px;" align="middle" frameborder="0" allowfullscreen></iframe>
+</section>
+{% endif %}
+{% if page.vimeo %}
+<section class="vimeo">
+  <iframe src="https://player.vimeo.com/video/{{ site.vimeo }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</section>
+{% endif %}
+{% if page.speakerdeck %}
+<section class="speakerdeck">
+<script async class="speakerdeck-embed" data-id="{{ page.speakerdeck }}" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
+</section>
+{% endif %}
 
-  {% include head.html %}
-
-  <body>
-	<section id="post" class="container content-section text-center">
-    	
-	{% include navigation.html %}
-
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-
-          {% include swipe-instructions.html %}
-
-          <h1><strong>{{ page.title }}</strong></h1>
-          <h4>
-            <i>{{ page.date | date_to_string }}</i>
-          	<br />
-			<br/>
-            <small>
-              category:
-              <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}.html">
-                {{ page.category }}
-              </a>
-              <br />
-              {% for tag in page.tags %}
-                <a class="tag">#{{ tag }}</a>
-              {% endfor %}
-            </small>
-          </h4>
-		  
-		  {% if page.image != null %}
-		  	<img src="{{ page.image }}" align="middle" style="width:600px;height:400px;">
-          {% endif %}
-
-          <section class="text-justify" style="text-align: left;">
-			<br/>
-            {{ page.content | markdownify }}
-          </section>
-		  
-		  {% if page.github %}
-			<br/>
-		  	<h2>Srource Code: </h2>
-			<br/>
-			<div style="background-color: white;">
-		  	<a href="{{ page.github }}" target="_blank">
-				<img src="https://kevalpatel2106.github.io/img/blog/github.png" align="middle" style="width:1024px;height:320px;">
-			</a>
-			</div>
-          {% endif %}
-
-          {% include share.html %}
-
-          {% if jekyll.environment == "production" %}
-            {% include comments.html %}
-          {% endif %}
-          <hr />
-
-          {% if site.author_blurb %}
-          <div class="author row">
-            <img class="col-xs-4 col-sm-3 col-md-2" src="{{site.baseurl}}{{site.author_blurb_image}}" alt="Me" />
-            <p class="col-xs-8 col-sm-9 col-md-10">
-              {{ site.author_blurb }}
-            </p>
-          </div>
-          {% endif%}
-        </div>
-  	  </div>
-    </section>
-
-    {% include footer.html %}
-
-    {% include js.html %}
-  </body>
-</html>
-
-<!-- Post Layout End -->
+{% if page.github %}
+<br/>
+	<h2>Srource Code: </h2>
+<br/>
+<div style="background-color: white;">
+	<a href="{{ page.github }}" target="_blank">
+	<img src="https://kevalpatel2106.github.io/img/blog/github.png" align="middle" style="width:1024px;height:320px;">
+</a>
+</div>
+{% endif %}

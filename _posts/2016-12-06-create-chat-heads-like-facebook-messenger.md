@@ -1,9 +1,7 @@
 ---
 layout: post
-section-type: post
 title: Create Chat Heads Like Facebook Messenger
 category: Android
-tags: [ 'android', 'chat-heads', 'ui']
 image: https://kevalpatel2106.github.io/img/blog/chat-heads/image.png 
 ---
 
@@ -26,12 +24,12 @@ So, let’s get started.
 
 ### **Implementation:**
 
-**Step-1:** 
+**Step-1:**
 Add _[android.permission.SYSTEM_ALERT_WINDOW](https://developer.android.com/reference/android/Manifest.permission.html#SYSTEM_ALERT_WINDOW)_ permission to the _AndroidManifest.xml_ file. This permission allows an app to create windows , shown on top of all other apps.
 
 <script src="https://gist.github.com/kevalpatel2106/3d525fa2ff9c91892668e2e7f8bcaa0d.js"></script>
 
-**Step-2:** 
+**Step-2:**
 Create the layout of the chat head you want to display.
 
 <script src="https://gist.github.com/kevalpatel2106/b82d39b961012bb520c765921fbc3e6e.js"></script>
@@ -43,11 +41,11 @@ Create the layout of the chat head you want to display.
 	<script src="https://gist.github.com/kevalpatel2106/42340f32188ecbf677cb14ef7194f1a6.js"></script>
 
   * To drag the chat head along with the user’s touch, we have to override _[OnTouchListener()](https://developer.android.com/reference/android/view/View.OnTouchListener.html)_. Whenever the user touches the chat head, we will record the initial x and y coordinates, and when the user moves the finger, the application will calculate the new X and Y coordinate and move the chat head.
-  
+
   * Also, implement click listener to close the chat head by stopping the service when the user clicks on the close icon at the top-right of the chat head.
 
 	<script src="https://gist.github.com/kevalpatel2106/d75224c690acfa0b05327dede24d374f.js"></script>
-  
+
   * So finally your _ChatService.java_ will look like below:
 
 	<script src="https://gist.github.com/kevalpatel2106/0a2533181ae1f27ec502f5fcc8611326.js"></script>
@@ -65,8 +63,8 @@ Create the layout of the chat head you want to display.
 
 * * *
 
-That’s it. Now build and run the project to see the results. 
+That’s it. Now build and run the project to see the results.
 
-Here is the sample of how our final application should look like. ![sample.gif](https://kevalpatel2106.github.io/img/blog/chat-heads/image3.gif) 
+Here is the sample of how our final application should look like. ![sample.gif](https://kevalpatel2106.github.io/img/blog/chat-heads/image3.gif)
 
 Don’t worry if you have any problems while building the project. Full source code is also available on [GitHub](https://github.com/kevalpatel2106/android-samples/tree/master/Facebook%20Chat%20Heads). Go ahead, download and run it. Still, if you have any queries let me know in comments below or hit me on [Twitter](https://twitter.com/Kevalonly77).
