@@ -1,6 +1,5 @@
 ---
 layout: post
-section-type: post
 title: Android Ringtone Picker
 category: Open Source
 image : https://kevalpatel2106.github.io/img/blog/ringtone-picker/image1.png

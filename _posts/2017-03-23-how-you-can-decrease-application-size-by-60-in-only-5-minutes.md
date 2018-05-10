@@ -1,9 +1,7 @@
 ---
 layout: post
-section-type: post
 title: How you can decrease application size by 60% (In only 5 minutes)?
 category: Android
-tags: [ 'android', 'application size', 'optimization']
 image: https://kevalpatel2106.github.io/img/blog/decrease-apk-size/image.png 
 ---
 
@@ -123,7 +121,7 @@ Volla!!! res folder size decrease from 710KB to 597KB.
 - Enable **shrinkResources**.
 - Strip down all the unused locale resources by adding required resources name in **“resConfigs”**.
 - **Convert all the images** to the webp or vector drawables.
-	
+
 ## Conclusion:
 
 By applying above simple tricks the application size decreases from 3.19 MB to 1.89 MB.

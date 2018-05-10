@@ -1,6 +1,5 @@
 ---
 layout: post
-section-type: post
 title: UserAwareVideoView
 category: Open Source
 image : https://kevalpatel2106.github.io/img/blog/user-aware-video-view/image1.jpeg
@@ -9,7 +8,7 @@ github : https://github.com/kevalpatel2106/UserAwareVideoView
 
 # User Aware Video View
 
-These days all new smartphones are packed with lots of sensors and most of the smartphone contains the front (selfie) camera. So, why don’t we make use of them to improve the user experience? While watching the video on your device is the most important feature for many social sharing, messaging and media applications. **UserAwareVideoView is a customized video viewer that smartly play and pause the video based on your user is looking at the video or not.** If the user is not looking at the screen then this will automatically pause the video, so your user does not miss any part of the video. UserAwareVideoView inherits the android framework’s default [VideoView](https://developer.android.com/reference/android/widget/VideoView.html)class. So, it has all the features that video viewer has. More than that it makes it easy to convert your all the default video views to UserAwareVideoView in your existing application. 
+These days all new smartphones are packed with lots of sensors and most of the smartphone contains the front (selfie) camera. So, why don’t we make use of them to improve the user experience? While watching the video on your device is the most important feature for many social sharing, messaging and media applications. **UserAwareVideoView is a customized video viewer that smartly play and pause the video based on your user is looking at the video or not.** If the user is not looking at the screen then this will automatically pause the video, so your user does not miss any part of the video. UserAwareVideoView inherits the android framework’s default [VideoView](https://developer.android.com/reference/android/widget/VideoView.html)class. So, it has all the features that video viewer has. More than that it makes it easy to convert your all the default video views to UserAwareVideoView in your existing application.
 
 ### How does it work?
 
@@ -41,7 +40,7 @@ Initialize the UserAwareVideoView in your activity/fragment by following three s
 
 <script src="https://gist.github.com/kevalpatel2106/e96c22d61812f161fb8c5b204e62f4f9.js"></script>
 
-That’s it. You are ready with UserAwareVideoView. 
+That’s it. You are ready with UserAwareVideoView.
 
 ### Conclusion:
 

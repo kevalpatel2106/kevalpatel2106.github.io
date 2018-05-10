@@ -1,18 +1,17 @@
 ---
 layout: post
-section-type: post
 title: Turn your Raspberry Pi into homemade Google Home
 category: Raspberry Pi
 image : https://kevalpatel2106.github.io/img/blog/homemade-google-home/home_banner.jpg
 ---
-[Google Home](https://madeby.google.com/intl/en_us/home/) is a beautiful device with built-in [Google Assistant](https://assistant.google.com/) - A state of the art digital personal assistant by Google -. which you can place anywhere at your home and it will do some amazing things for you. It will save your reminders, shopping lists, notes and most importantly answers your questions and queries based on the context of the conversations. 
+[Google Home](https://madeby.google.com/intl/en_us/home/) is a beautiful device with built-in [Google Assistant](https://assistant.google.com/) - A state of the art digital personal assistant by Google -. which you can place anywhere at your home and it will do some amazing things for you. It will save your reminders, shopping lists, notes and most importantly answers your questions and queries based on the context of the conversations.
 
 In this article, you are going to learn to turn your Raspberry Pi into homemade Google Home device which is,
 
 - Powered by Google Assistant.
 - Voice activated. No need to press any button, just say "Ok Google" or "Hey Google" and ask your question.
-- There will be a LED indicator which will stay on whenever the conversation between the user and the Google Assistant it in progress. 
-- It can initialize on boot so no need to login and run the script from terminal after reboots. 
+- There will be a LED indicator which will stay on whenever the conversation between the user and the Google Assistant it in progress.
+- It can initialize on boot so no need to login and run the script from terminal after reboots.
 
 So, let's get started.
 
@@ -21,7 +20,7 @@ So, let's get started.
 ### What things will you need?
 
 - Raspberry Pi model 2 or 3.
-- MicroSD card with Raspbian on it (Minimum 8GB recommended). 
+- MicroSD card with Raspbian on it (Minimum 8GB recommended).
 - Power supply to feed your raspberry pi. (Any USB mobile charger with minimum 5V, 2A output will work.)
 - USB mic (As Raspberry Pi doesn't have an inbuilt mic. I used MI-305).  
 - A speaker.
@@ -34,7 +33,7 @@ Once you have all these things, login to Raspbian desktop and go to the followin
 
 ### Step -1: Setting up USB mic.
 
-- Raspberry Pi doesn't have inbuilt microphones. If you want to record audio, you need to attach a USB microphone. 
+- Raspberry Pi doesn't have inbuilt microphones. If you want to record audio, you need to attach a USB microphone.
 - Plug your USB mic into any of the USB slots of your Raspberry Pi.
 - Go to the terminal and type following command.
 
@@ -54,7 +53,7 @@ As you can see your USB device is attached to card 1 and the device id is 0. Ras
 
 <script src="https://gist.github.com/kevalpatel2106/a0b6e792cc59e059d17584568ed7636c.js"></script>
 
-This will set your external mic (see pcm.mic) as the audio capture device (see in pcm!.default) and your inbuilt sound card (card 0) as the speaker device. 
+This will set your external mic (see pcm.mic) as the audio capture device (see in pcm!.default) and your inbuilt sound card (card 0) as the speaker device.
 
 - Create a new file named .asoundrc in the home directory (/home/pi) by issuing following command.
 
@@ -93,7 +92,7 @@ Okay. Our hardware is set.
 
 <script src="https://gist.github.com/kevalpatel2106/9692e0dc545466dcdce2f82174936fbf.js"></script>
 
-- Run below command one by one in the terminal. 
+- Run below command one by one in the terminal.
 
 <script src="https://gist.github.com/kevalpatel2106/fafb148b483dba7ce9f5309ca0af16d0.js"></script>
 
@@ -171,7 +170,7 @@ If instead, it displays: <code>InvalidGrantError</code> then an invalid code was
 - Write following script and save the file.
 
 <script src="https://gist.github.com/kevalpatel2106/44bbb610093e02641835d4a99e8e25cd.js"></script>
-	
+
 - Now create one shell script that will initialize and run the Google Assistant.
 
 <script src="https://gist.github.com/kevalpatel2106/a7df14fc0143d9e159e73ae93a8481e8.js"></script>
@@ -188,7 +187,7 @@ You can run google-assistant-init.sh to initiate the Google Assistant any time. 
 
 - To enable Google Assistant on Boot there are two ways. Let's see each of them.
 
-#### 1. Autostart with Pixel Desktop on Boot: 
+#### 1. Autostart with Pixel Desktop on Boot:
 
 - This will start the Google Assistant as soon as Pixel desktop boots up. Make sure you have "Desktop" boot selected in Raspberry Pi configurations.
 - Type below command
@@ -226,4 +225,3 @@ That's all!!! You "Homemade Google Home" is now ready. Reboot the device and ask
 You can do many daily stuf with your Google Home. If you want to perform your custom tasks like turning off the light, opening the door, you can do it with integrating [Google Actions](https://developers.google.com/actions/) in your Google Assistant. If you have any trouble with starting the Google Assistant, leave a comment below. I will try to resolve them.
 
 *If you liked the article, share it so more people can see it! Also, you can follow me on [Medium](https://medium.com/@kevalpatel2106) or on [Twitter](https://twitter.com/kevalpatel2106), so you get updates regarding my future articles!!*
-

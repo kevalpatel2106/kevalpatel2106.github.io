@@ -1,6 +1,5 @@
 ---
 layout: presentation
-section-type: post
 title: Decrease build time and application size by 60%.
 category: Presentation
 
