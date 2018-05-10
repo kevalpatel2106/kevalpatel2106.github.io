@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Keval Patel's Blogs
-permalink: /blogs/
 ---
 {% for post in site.posts  %}
     {% if post.subtype == "blog" or post.subtype == "presentation" %}
