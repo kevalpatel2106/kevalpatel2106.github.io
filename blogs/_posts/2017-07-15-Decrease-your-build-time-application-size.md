@@ -2,7 +2,6 @@
 layout: presentation
 title: Decrease build time and application size
 category: Presentation
-subtype: presentation
 
 event: Ahmedabad Mobile Technology Meetup
 location: Ahemdabad, Gujarat, India

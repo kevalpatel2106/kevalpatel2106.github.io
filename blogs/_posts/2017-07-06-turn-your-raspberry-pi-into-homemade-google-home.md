@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Turn your Raspberry Pi into homemade Google Home
-subtype: blog
 category: Raspberry Pi
 image : https://kevalpatel2106.github.io/img/blog/homemade-google-home/home_banner.jpg
 ---

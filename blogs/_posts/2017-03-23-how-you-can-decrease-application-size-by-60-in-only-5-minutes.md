@@ -1,6 +1,5 @@
 ---
 layout: post
-subtype: blog
 title: How you can decrease application size by 60% (In only 5 minutes)?
 category: Android
 image: https://kevalpatel2106.github.io/img/blog/decrease-apk-size/image.png

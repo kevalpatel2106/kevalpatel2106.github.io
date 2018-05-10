@@ -2,7 +2,6 @@
 layout: presentation
 title: Decrease build time and application size by 60%.
 category: Presentation
-subtype: presentation
 
 event: MAD Meetups
 location: Mumbai, Maharashtra, India
