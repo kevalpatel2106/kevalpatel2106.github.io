@@ -1,5 +1,6 @@
 ---
 layout: post
+subtype: project
 title: Open Weather Api
 category: Open Source
 image : https://kevalpatel2106.github.io/img/blog/open-weather-api/sun.png

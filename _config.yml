@@ -34,7 +34,7 @@ fixedNav: 'false' # true or false
 
 permalink: /:year/:month/:title
 markdown: kramdown
-include: [_pages,_projects]
+include: [_pages,_projects,_presentations]
 exclude: [_site, CHANGELOG.md, LICENSE, README.md]
 sass:
   style: compressed

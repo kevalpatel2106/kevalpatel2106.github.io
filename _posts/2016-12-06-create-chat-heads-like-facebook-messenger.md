@@ -1,8 +1,9 @@
 ---
 layout: post
+subtype: blog
 title: Create Chat Heads Like Facebook Messenger
 category: Android
-image: https://kevalpatel2106.github.io/img/blog/chat-heads/image.png 
+image: https://kevalpatel2106.github.io/img/blog/chat-heads/image.png
 ---
 
 # Create Chat Heads Like Facebook Messenger

@@ -4,6 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 {% for post in site.projects  %}
+  {% if post.subtype == "project" %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
@@ -34,4 +35,5 @@ permalink: /projects/
         <ul class="c-archives__list">
         {% endif %}
     {% endif %}
+  {% endif %}
 {% endfor %}

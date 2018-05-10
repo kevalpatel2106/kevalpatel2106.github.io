@@ -2,6 +2,7 @@
 layout: presentation
 title: Build your first Android Things application.
 category: Presentation
+subtype: presentation
 
 event: Ahmedabad Mobile Technology Meetup
 location: Ahemdabad, Gujarat, India

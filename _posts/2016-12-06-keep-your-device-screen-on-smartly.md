@@ -1,5 +1,6 @@
 ---
 layout: post
+subtype: blog
 title: Keep your device screen on smartly!!!
 category: Open Source
 image : https://kevalpatel2106.github.io/img/blog/prevent-screen-off/image.gif

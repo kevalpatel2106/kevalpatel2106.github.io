@@ -1,5 +1,6 @@
 ---
 layout: post
+subtype: project
 title: Android Ruler Picker
 category: Open Source
 redirect: https://github.com/kevalpatel2106/android-ruler-picker

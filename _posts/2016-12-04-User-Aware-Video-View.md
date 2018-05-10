@@ -1,5 +1,6 @@
 ---
 layout: post
+subtype: blog
 title: UserAwareVideoView
 category: Open Source
 image : https://kevalpatel2106.github.io/img/blog/user-aware-video-view/image1.jpeg
