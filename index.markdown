@@ -1,38 +1,7 @@
 ---
 layout: page
-title: Keval Patel's Blogs
+title: Keval Patel - Android Developer | Open source contributor
 ---
-{% for post in site.posts  %}
-    {% if post.subtype == "blog" or post.subtype == "presentation" %}
-        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-        {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+I am an Android Developer working on building beautiful and stunning Android applications for last 3 years. I am Google certified Associate Android Developer. I also worked on some of the web technologies like Google App Engine and some of the emerging languages like GoLang.
 
-        {% if forloop.first %}
-            <h2 class="c-archives__year" id="{{ this_year }}-ref">{{this_year}}</h2>
-            <ul class="c-archives__list">
-        {% endif %}
-            <li class="c-archives__item">
-                <h3>
-                {% if post.redirect %}
-                <a href="{{post.redirect}}" target="_blank">
-    			        <strong>{{ post.title }}</strong>
-    		         </a>
-                {% else %}
-                <a href="{{site.baseurl}}{{post.url}}">
-                  <strong>{{ post.title }}</strong>
-                </a>
-                {% endif %}
-                </h3>
-                <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-            </li>
-        {% if forloop.last %}
-            </ul>
-        {% else %}
-            {% if this_year != next_year %}
-            </ul>
-            <h2 class="c-archives__year" id="{{ next_year }}-ref">{{next_year}}</h2>
-            <ul class="c-archives__list">
-            {% endif %}
-        {% endif %}
-    {% endif %}
-{% endfor %}
+I try to learn something new every day. Here on this website I write about the things I learned while exploring new things.
