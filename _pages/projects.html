@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-{% for post in site.projects  %}
+{% for post in site.posts  %}
     {% if post.subtype == "project" %}
         {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
         {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
