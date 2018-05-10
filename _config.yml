@@ -24,13 +24,13 @@ url: "http://kevalpatel2106.com" # the base hostname & protocol for your site
 
 # Social
 githubUsername: kevalpatel2106
-twitterUsername: kevalpatel2106 
+twitterUsername: kevalpatel2106
 dribbbleUsername: kevalpatel2106
 
 # Build settings
 markdown: kramdown
 
-#themeColor: purple # green, blue, orange, purple, grey
+themeColor: green # purple, blue, orange, purple, grey
 fixedNav: 'true' # true or false
 
 permalink: /:year/:month/:title
