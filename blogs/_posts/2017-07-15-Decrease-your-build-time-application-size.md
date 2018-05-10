@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: post
 title: Decrease build time and application size
 category: Presentation
 

@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: post
 title: Build your first Android Things application.
 category: Presentation
 
